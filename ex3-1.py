@@ -1,3 +1,3 @@
-name = "Henrry"
-age = 12
+name="Henrry"
+age=12
 print(name, age)
