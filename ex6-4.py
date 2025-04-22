@@ -1,0 +1,8 @@
+day = int(input("What day is today? "))
+match day:
+    case 1 | 2 | 3 | 4 | 5:
+        print("Today is a weekday")
+    case 6 | 7:
+        print("I love weekends!")
+    case _:
+        print("please input number 1-7")
