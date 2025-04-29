@@ -1,6 +1,8 @@
 score = int(input("請輸入成績："))
 
-if 90 <= score <= 100:
+if score < 0 or score > 100:
+    print("請輸入0到100之間的成績")
+elif 90 <= score <= 100:
     print("A等")
 elif 80 <= score < 90:
     print("B等")
